@@ -1,0 +1,500 @@
+p {
+    font-family:
+}
+
+
+img {
+    width: 100%;
+
+}
+
+body {
+    margin: 3px;
+
+}
+
+hr {
+    border: 1px solid #79798b
+}
+
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+
+/* tekst farve i lille flex */
+nav a:link {
+    color: white;
+}
+
+/* tekst farve i sotr flex*/
+nav a:visited {
+    color: white;
+}
+
+/* mus over link */
+nav a:hover {
+    color: black;
+    background-color: rgba(108, 108, 108, 0.75);
+
+}
+
+
+
+nav {
+    position: static;
+    top: 40vw;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+
+
+}
+
+nav a {
+    display: block;
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding: 10px;
+
+
+
+}
+
+@media only screen and (min-width: 725px) {
+
+    nav a {
+        border-left: 1px white solid;
+        border-right: 1px white solid;
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        display: inline-block;
+
+
+    }
+
+}
+
+
+
+/********************  Menu Forsiden  ********************/
+
+/* tekst farve i lille flex */
+div a:link {
+    color: white;
+}
+
+/* tekst farve i sotr flec*/
+div a:visited {
+    color: white;
+}
+
+/* mous over link */
+div a:hover {
+    color: black;
+    background-color: grey;
+}
+
+
+
+div {
+    position: static;
+    top: 40vw;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom:
+
+}
+
+div a {
+    display: block;
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 725px) {
+
+    div a {
+        border-left: 1px white solid;
+        border-right: 1px white solid;
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        display: inline-block;
+
+
+    }
+
+}
+
+
+
+
+
+
+/********************  knapper mit arbejde  ********************/
+
+
+
+
+@media only screen and (min-width: 725px) {
+
+    .bottom a {
+        border: solid black 1px;
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        display: inline-block;
+
+
+    }
+
+    /* tekst farve i lille flex */
+    .bottom a:link {
+        color: black;
+    }
+
+    /* tekst farve i sotr flec*/
+    .bottom a:visited {
+        color: black;
+    }
+
+    /* mous over link */
+    .bottom a:hover {
+        color: black;
+        background-color: grey;
+    }
+
+
+
+    .bottom {
+        position: static;
+        top: 40vw;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        margin-bottom:
+
+    }
+
+    .bottom a {
+        display: block;
+        font-size: 1.2rem;
+        margin: 1rem;
+        padding: 10px;
+    }
+
+}
+
+
+
+
+
+/***************************FORSIDE******************************/
+
+.baggrunds_billede {
+    /* baggrunds billedet*/
+    background-image: url("grafik/baggrund/Material_ConneXion.jpg");
+
+
+    /* skærm udfyldningen*/
+    height: 100vh;
+    width: 100vw;
+
+
+    /* uklar effekt */
+    filter: blur(4px);
+
+
+
+    /* centrere billedet */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* positioner teksten i midten af billedet/baggrunden */
+.baggrunds_firkant {
+
+    /* sort men gennemsigtig baggrund */
+    background-color: rgba(0, 0, 0, 0.58);
+    /* tekst farve og position*/
+    color: white;
+    text-align: center;
+    /*    rammen omkring boksen*/
+    border: 2px solid rgba(255, 255, 255, 0.16);
+    /*    position og størrelse på boksen*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+
+
+}
+
+
+
+
+
+
+/**************************  Om Mig  *************************/
+
+
+.baggrunds_billede_om_mig {
+    /* baggrunds billedet*/
+    background-image: url("grafik/baggrund/Material_ConneXion.jpg");
+
+
+    /* skærm udfyldningen*/
+    height: 100vh;
+    width: 100vw;
+
+
+    /* uklar effekt */
+    filter: blur(4px);
+
+
+
+    /* centrere billedet */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* positioner teksten i midten af billedet/baggrunden */
+#om_mig .sectionwrapper {
+
+    /* sort men gennemsigtig baggrund */
+    background-color: rgba(0, 0, 0, 0.58);
+    /* tekst farve og position*/
+    color: white;
+    text-align: center;
+    /*    rammen omkring boksen*/
+    border: 2px solid rgba(255, 255, 255, 0.16);
+    /*    position og størrelse på boksen*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.column {
+
+    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 2rem;
+    margin: 2rem;
+
+
+}
+
+
+.om_mig_billede img {
+    border-radius: 50%;
+    border: solid 0.4px black;
+    width: 300px;
+    height: 300px;
+}
+
+
+/***************Mit arbejde************/
+#mit_arbejde .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#mit_arbejde .column {
+    flex-grow: 1;
+    flex-basis: 200px;
+
+    /* child ting*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5rem;
+    margin: 0.1rem;
+    /*    background: rgb(242, 249, 255);*/
+}
+
+
+
+/****** Menu Mit arbejde*****/
+
+/* tekst farve i lille flex */
+.under_menu a:link {
+    color: white;
+}
+
+/* tekst farve i sotr flex*/
+.under_menu a:visited {
+    color: white;
+}
+
+/* mus over link */
+.under_menu a:hover {
+    color: black;
+    background-color: rgba(108, 108, 108, 0.75);
+
+}
+
+
+
+.under_menu {
+    position: static;
+    top: 40vw;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+
+
+}
+
+.under_menu a {
+    display: block;
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding: 10px;
+
+
+
+}
+
+@media only screen and (min-width: 725px) {
+
+    .under_menu a {
+        border-left: 1px white solid;
+        border-right: 1px white solid;
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        display: inline-block;
+
+
+    }
+
+}
+
+
+
+
+
+/*************** Dadaisme ************/
+
+.top_billede {
+    /* baggrunds billedet*/
+    background-image: url("grafik/baggrund/Material_ConneXion.jpg");
+
+
+    /* skærm udfyldningen*/
+    height: 35vh;
+    width: 100vw;
+
+
+    /* uklar effekt */
+    filter: blur(2px);
+
+
+
+    /* centrere billedet */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* positioner teksten i midten af billedet/baggrunden */
+.tekst_firkant {
+
+    /* sort men gennemsigtig baggrund */
+    background-color: rgba(0, 0, 0, 0.58);
+    /* tekst farve og position*/
+    color: white;
+    text-align: center;
+    /*    rammen omkring boksen*/
+    border: 2px solid rgba(255, 255, 255, 0.16);
+    /*    position og størrelse på boksen*/
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+
+
+}
+
+
+/*burgermenu*/
+
+.bar1,
+.bar2,
+.bar3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+
+
+}
+
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+
+.change .bar2 {
+    opacity: 0;
+}
+
+/*udsende på krydset*/
+.change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+.box {
+    position: absolute;
+    justify-content: flex-end;
+    height: 180px;
+    width: 150px;
+    top: 38vw;
+    left: 5vw;
+    background-color: black;
+}
+
+
+.ned_menu {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+    margin: 3vw;
+
+}
+
+.ned_menu a {
+    font-size: 1.1rem;
+    margin: 0.25rem;
+    padding: 0.25rem;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    color: black;
+}
